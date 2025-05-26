@@ -1,6 +1,7 @@
 # 🌎 ExploraBrasil - English (EN)
 
 <div align="left">
+  
 ![Status: Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badges)  
 ![Platform: Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badges&logo=android&logoColor=white)
 </div>
