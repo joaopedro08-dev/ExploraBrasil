@@ -1,0 +1,266 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Rio de Janeiro</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/RJ.png" alt="Imagem de Rio de Janeiro">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1893155.4360437233!2d-42.923630700000004!3d-22.0660686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x981894cae28ac3%3A0x349c31ac10583d0!2sRio%20de%20Janeiro!5e0!3m2!1spt-BR!2sbr!4v1744660284918!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Norte de Rio de Janeiro</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-title level="3">O que mais produz:</ion-title>
+            <ion-text>
+                <p>
+                    A principal atividade econômica da região é a extração de petróleo e gás natural, especialmente na Bacia de Campos, que responde por grande parte da produção nacional. Além dessa, Campos dos Goytacazes é o maior produtor de cana-de-açúcar do estado e
+                    ainda sustenta a economia de muitos municípios da região.
+                </p>
+            </ion-text>
+
+            <ion-title level="3">Quanto que produz aproximadamente:</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Petróleo:</strong> A Bacia de Campos, localizada majoritariamente no Norte Fluminense, responde por cerca de 70% da produção nacional de petróleo. Em 2022, o Brasil produziu 3,02 milhões de barris por dia (ANP - Agência Nacional
+                    do Petróleo), sendo aproximadamente 2,1 milhões de barris/dia oriundos dessa região.
+                </p>
+                <p>
+                    <strong>Cana-de-açúcar:</strong> Segundo o IBGE (PAM 2022), o estado produziu 2,8 milhões de toneladas, com grande parte concentrada no Norte Fluminense.
+                </p>
+            </ion-text>
+
+            <ion-title level="3">Quanto rende de riqueza:</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Petróleo:</strong> Em 2021, o PIB da região Norte Fluminense foi impulsionado pelo setor de óleo e gás, com Campos dos Goytacazes gerando cerca de R$ 34,6 bilhões (IBGE, 2021).
+                </p>
+                <p>
+                    <strong>Agropecuária:</strong> A cana-de-açúcar e a pecuária contribuem com cerca de R$ 1,5 bilhão anualmente ao PIB regional (estimativa baseada em dados do IBGE).
+                </p>
+            </ion-text>
+
+            <ion-title level="3">Top 3 maiores clientes:</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Petrobras</strong> (Principal exploradora de petróleo na Bacia de Campos),
+                    <strong>Indústrias de
+                        etanol</strong> (Compradoras da cana-de-açúcar para produção de açúcar e álcool) e o
+                    <strong>Mercado
+                        interno</strong> (Consumo de carne bovina e derivados).
+                </p>
+            </ion-text>
+
+            <ion-title level="3">Principais cidades da região:</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Campos dos Goytacazes</strong> (Maior cidade e polo econômico do petróleo),
+                    <strong>Macaé</strong> (Conhecida como "capital do petróleo" devido às operações offshore), <strong>São João da
+                        Barra</strong> (Abriga o Porto do Açu, importante para logística).
+                </p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Sul de Rio de Janeiro</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-title level="3">O que mais produz?</ion-title>
+            <ion-text>
+                <p>
+                    A região Sul Fluminense destaca-se pela <strong>indústria siderúrgica</strong>,
+                    <strong>metalúrgica</strong> e
+                    <strong>automobilística</strong>, além de alguma produção <strong>agrícola</strong> como café e leite.
+                </p>
+            </ion-text>
+            <ion-title level="3">Quanto produz aproximadamente?</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Aço:</strong> A Companhia Siderúrgica Nacional (CSN), em Volta Redonda, produziu cerca de 4,5 milhões de toneladas de aço em 2022 (dados da CSN).
+                </p>
+                <p>
+                    <strong>Veículos:</strong> A planta da Stellantis (antiga PSA Peugeot Citroën) em Porto Real produziu cerca de 40 mil veículos em 2022.
+                </p>
+                <p>
+                    <strong>Leite:</strong> Produção estimada em 300 milhões de litros/ano (IBGE, 2022).
+                </p>
+            </ion-text>
+            <ion-title level="3">Quanto rende de riqueza?</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Indústria:</strong> O PIB do Sul Fluminense foi de aproximadamente R$ 40 bilhões em 2021 (IBGE), com Volta Redonda contribuindo com R$ 14,8 bilhões.
+                </p>
+                <p>
+                    <strong>Agropecuária:</strong> R$ 800 milhões anuais (estimativa IBGE).
+                </p>
+            </ion-text>
+            <ion-title level="3">Top 3 maiores clientes:</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Mercado internacional:</strong> exportação de aço (CSN exporta para EUA, Europa e Ásia).
+                </p>
+                <p>
+                    <strong>Montadoras:</strong> Fornecedores locais e nacionais para a indústria automotiva.
+                </p>
+                <p>
+                    <strong>Mercado interno:</strong> consumo de produtos lácteos e café.
+                </p>
+            </ion-text>
+            <ion-title level="3">Principais cidades da região:</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Volta Redonda:</strong> Polo siderúrgico com a CSN.
+                </p>
+                <p>
+                    <strong>Resende:</strong> Sede da MAN/Volkswagen Caminhões.
+                </p>
+                <p>
+                    <strong>Porto Real:</strong> Abriga a fábrica da Stellantis.
+                </p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Leste de Rio de Janeiro</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-title level="3">O que mais produz?</ion-title>
+            <ion-text>
+                <p>
+                    A economia do Leste Fluminense é diversificada, mas alguns setores se destacam mais que outros:
+                </p>
+                <ion-list>
+                    <ion-item>
+                        <ion-text><strong>Royalties de Petróleo:</strong> Maricá e Niterói receberam grandes aportes financeiros.
+                        </ion-text>
+                    </ion-item>
+                    <ion-item>
+                        <ion-text><strong>Indústria Naval:</strong> Estaleiros em São Gonçalo e Niterói (STX Europe, Aliança, Estaleiro Mauá).</ion-text>
+                    </ion-item>
+                    <ion-item>
+                        <ion-text><strong>Agropecuária:</strong> Cana-de-açúcar, café, tomate, aipim, alface, banana, citrus e abacaxi.</ion-text>
+                    </ion-item>
+                </ion-list>
+            </ion-text>
+            <ion-title level="3">Quanto produz aproximadamente?</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Royalties de Petróleo:</strong> O estado do Rio responde por cerca de 70% da produção nacional de petróleo (aproximadamente 3 milhões de barris por dia em 2023).
+                </p>
+                <p>
+                    <strong>Indústria Naval:</strong> Produção medida em embarcações ou toneladas de aço processadas (setor naval no Brasil produziu cerca de 200 mil toneladas de aço em embarcações em anos recentes).
+                </p>
+                <p>
+                    <strong>Agropecuária:</strong> Produção diversificada (ex: cana-de-açúcar no estado foi de 1,5 milhão de toneladas em 2023).
+                </p>
+            </ion-text>
+            <ion-title level="3">Quanto rende de riqueza?</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Royalties de Petróleo:</strong> Maricá recebeu cerca de R$ 1,5 bilhão em royalties anuais (2023), e Niterói algo próximo de R$ 1 bilhão.
+                </p>
+                <p>
+                    <strong>Indústria Naval:</strong> Setor naval no Brasil movimenta cerca de R$ 10-15 bilhões anuais.
+                </p>
+                <p>
+                    <strong>Agropecuária:</strong> O estado do Rio produziu cerca de R$ 5 bilhões em valor agrícola em 2023.
+                </p>
+            </ion-text>
+            <ion-title level="3">Top 3 maiores clientes:</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Indústria Naval:</strong> Empresas de transporte marítimo, Petrobras e a Marinha.
+                </p>
+                <p>
+                    <strong>Governo e Serviços Públicos:</strong> Reinvestimento dos royalties e da receita da indústria.
+                </p>
+            </ion-text>
+            <ion-title level="3">Principais cidades da região:</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Cabo Frio:</strong> Polo turístico e de extração de sal.
+                </p>
+                <p>
+                    <strong>Arraial do Cabo:</strong> Famosa pelas praias e turismo.
+                </p>
+                <p>
+                    <strong>Saquarema:</strong> Destaque no turismo e royalties do petróleo.
+                </p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Oeste de Rio de Janeiro</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-title level="3">O que mais produz?</ion-title>
+            <ion-text>
+                <p>
+                    A região Oeste, parte da Região Metropolitana e Zona Oeste da capital, é forte em indústria (alimentícia, química), comércio e turismo (na Barra da Tijuca). Inclui também agricultura de subsistência.
+                </p>
+            </ion-text>
+            <ion-title level="3">Quanto produz aproximadamente?</ion-title>
+            <ion-text>
+                <p>
+                    A região Oeste, parte da Região Metropolitana e Zona Oeste da capital, é forte em indústria (alimentícia, química), comércio e turismo (na Barra da Tijuca). Inclui também agricultura de subsistência.
+                </p>
+            </ion-text>
+            <ion-title level="3">Quanto rende de riqueza?</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Indústria e comércio:</strong> O PIB da Zona Oeste da capital foi de R$ 70 bilhões em 2021 (IBGE), com destaque para a Barra da Tijuca.
+                </p>
+                <p>
+                    <strong>Turismo:</strong> R$ 3 bilhões anuais (Secretaria de Turismo RJ).
+                </p>
+            </ion-text>
+            <ion-title level="3">Top 3 maiores clientes:</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Mercado interno:</strong> consumo de bens industriais e serviços.
+                </p>
+                <p>
+                    <strong>Turistas:</strong> Principalmente de São Paulo e Minas Gerais.
+                </p>
+                <p>
+                    <strong>Empresas nacionais:</strong> Como Ambev e varejistas (ex.: Lojas Americanas).
+                </p>
+            </ion-text>
+            <ion-title level="3">Principais cidades da região</ion-title>
+            <ion-text>
+                <p>
+                    <strong>Rio de Janeiro (Zona Oeste):</strong> Inclui Barra da Tijuca, polo econômico e turístico.
+                </p>
+                <p>
+                    <strong>Itaguaí:</strong> Porto de Sepetiba, importante para logística.
+                </p>
+                <p>
+                    <strong>Seropédica:</strong> Atividades industriais e agrícolas.
+                </p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

@@ -1,0 +1,93 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Píaui</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/PI.png" alt="Imagem de Píaui">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4056501.6462090756!2d-43.199358249999996!3d-6.839254400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x782e57c7080b28f%3A0x5ae7715404f694a5!2zUGlhdcOt!5e0!3m2!1spt-BR!2sbr!4v1744670320116!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Norte</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Produtos:</strong> Pesca, Sal Marinho, Turismo</p>
+            <ul>
+                <li>Pesca: R$ 100 milhões/ano</li>
+                <li>Sal Marinho: R$ 500 milhões/ano</li>
+                <li>Turismo: R$ 50 milhões/ano</li>
+            </ul>
+            <p><strong>Clientes:</strong> Mercados do Nordeste e Sudeste, Indústrias de alimentos e cosméticos, turistas.</p>
+            <p><strong>Cidades:</strong> Parnaíba, Luís Correia, Piripiri</p>
+
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Sul</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Produtos:</strong> Soja, Milho, Algodão, Pecuária</p>
+            <ul>
+                <li>Soja: R$ 3 bilhões/ano</li>
+                <li>Milho: R$ 800 milhões/ano</li>
+                <li>Algodão: R$ 500 milhões/ano</li>
+                <li>Pecuária: R$ 2 bilhões/ano</li>
+            </ul>
+            <p><strong>Clientes:</strong> Indústrias alimentícias e têxteis, China, União Europeia</p>
+            <p><strong>Cidades:</strong> Bom Jesus, Corrente, Uruçuí, Gilbués, Cristino Castro</p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Leste</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Produtos:</strong> Mel, Caju, Manga, Uva</p>
+            <ul>
+                <li>Mel: R$ 50 milhões/ano</li>
+                <li>Caju: R$ 150 milhões/ano</li>
+                <li>Manga: R$ 100 milhões/ano</li>
+                <li>Uva: R$ 20 milhões/ano</li>
+            </ul>
+            <p><strong>Clientes:</strong> Indústrias alimentícias, Europa, EUA</p>
+            <p><strong>Cidades:</strong> Picos, Altos, União, Esperantina, Floriano</p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Oeste</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Produtos:</strong> Cera de carnaúba, óleos vegetais, frutos da Caatinga</p>
+            <ul>
+                <li>Cera de carnaúba: R$ 150 milhões/ano</li>
+                <li>Óleos vegetais: R$ 100 milhões/ano</li>
+                <li>Frutos nativos: R$ 30 milhões/ano</li>
+            </ul>
+            <p><strong>Clientes:</strong> Indústrias cosméticas, farmacêuticas, Europa e EUA</p>
+            <p><strong>Cidades:</strong> Floriano e outras do sudoeste</p>
+
+        </ion-card-content>
+    </ion-card>
+</ion-content>

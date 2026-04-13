@@ -1,0 +1,158 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Alagoas</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/AL.png" alt="Imagem de Alagoas">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2013841.2285605606!2d-36.694740900000006!3d-9.6567872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x700fd232f520d9b%3A0x7e2d39e57f3df62d!2sAlagoas!5e0!3m2!1spt-BR!2sbr!4v1744670488520!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Oeste de Alagoas</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>Principais cidades</h3>
+            <ul>
+                <li>Arapiraca</li>
+                <li>Palmeira dos Índios</li>
+                <li>Delmiro Gouveia</li>
+                <li>São Sebastião</li>
+            </ul>
+            <h3>Produtos mais produzidos:</h3>
+            <ul>
+                <li><strong>Cana-de-açúcar:</strong> produção voltada para açúcar e etanol.</li>
+                <li><strong>Fumo:</strong> Arapiraca é um dos maiores polos do Brasil.</li>
+                <li><strong>Frutas e grãos:</strong> milho, feijão, banana e mamão.</li>
+                <li><strong>Pecuária:</strong> gado de corte e leite com foco em pequenos e médios produtores.</li>
+            </ul>
+            <h3>Produção aproximada:</h3>
+            <ul>
+                <li>Cana-de-açúcar: ~20 milhões de toneladas/ano.</li>
+                <li>Fumo: ~15 mil toneladas/ano.</li>
+                <li>Pecuária: ~2 milhões de cabeças de gado.</li>
+            </ul>
+            <h3>Rendimento de riqueza:</h3>
+            <ul>
+                <li>Cana-de-açúcar: ~R$ 4 bilhões/ano.</li>
+                <li>Fumo: valor relevante na economia local.</li>
+                <li>Setor agropecuário impacta significativamente o PIB estadual.</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Leste de Alagoas (Litoral e Maceió)</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>Principais cidades</h3>
+            <ul>
+                <li>Maceió</li>
+                <li>Marechal Deodoro</li>
+                <li>Rio Largo</li>
+                <li>Paripueira</li>
+            </ul>
+            <h3>Produtos mais produzidos:</h3>
+            <ul>
+                <li><strong>Turismo:</strong> lazer, ecoturismo e cultural.</li>
+                <li><strong>Pesca:</strong> destaque para camarões e frutos do mar.</li>
+                <li><strong>Cana-de-açúcar:</strong> também presente, embora menor que no interior.</li>
+                <li><strong>Agronegócio:</strong> frutas como melão, coco, laranja.</li>
+            </ul>
+            <h3>Produção aproximada:</h3>
+            <ul>
+                <li>Turismo: ~R$ 2 bilhões/ano.</li>
+                <li>Pesca: ~10 mil toneladas de camarões/ano.</li>
+                <li>Cana-de-açúcar: parte dos 20 milhões de toneladas/ano do estado.</li>
+            </ul>
+            <h3>Rendimento de riqueza:</h3>
+            <ul>
+                <li>Turismo: um dos maiores motores econômicos da região.</li>
+                <li>Pesca e frutos do mar: milhões em faturamento.</li>
+                <li>Cana-de-açúcar: relevante para economia local.</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Norte de Alagoas</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>Principais cidades</h3>
+            <ul>
+                <li>Maragogi</li>
+                <li>Porto de Pedras</li>
+                <li>São Miguel dos Milagres</li>
+                <li>Japaratinga</li>
+            </ul>
+            <h3>Produtos mais produzidos:</h3>
+            <ul>
+                <li><strong>Pecuária:</strong> gado de corte.</li>
+                <li><strong>Leite:</strong> atividade relevante, destaque para Santana do Ipanema.</li>
+                <li><strong>Milho e feijão:</strong> cultivo adaptado ao semiárido.</li>
+                <li><strong>Frutas:</strong> melão e coco.</li>
+            </ul>
+            <h3>Produção aproximada:</h3>
+            <ul>
+                <li>Pecuária: ~2 milhões de cabeças de gado.</li>
+                <li>Leite: produção significativa.</li>
+                <li>Milho e feijão: importante para segurança alimentar regional.</li>
+            </ul>
+            <h3>Rendimento de riqueza:</h3>
+            <ul>
+                <li>Pecuária: pilar da economia local.</li>
+                <li>PIB menor que o litoral, mas com impacto relevante.</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Sul de Alagoas</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>Principais cidades</h3>
+            <ul>
+                <li>Anadia</li>
+                <li>São Miguel dos Campos</li>
+                <li>Coruripe</li>
+                <li>Boca da Mata</li>
+            </ul>
+            <h3>Produtos mais produzidos:</h3>
+            <ul>
+                <li><strong>Cana-de-açúcar:</strong> maior fonte de renda.</li>
+                <li><strong>Pesca:</strong> destaque para camarões e peixes.</li>
+                <li><strong>Frutas:</strong> laranja, melão, banana.</li>
+            </ul>
+            <h3>Produção aproximada:</h3>
+            <ul>
+                <li>Cana-de-açúcar: contribui fortemente para os 20 milhões de toneladas/ano.</li>
+                <li>Pesca: produção significativa.</li>
+                <li>Frutas: volumes relevantes.</li>
+            </ul>
+            <h3>Rendimento de riqueza:</h3>
+            <ul>
+                <li>Cana-de-açúcar: bilhões de reais com etanol e açúcar.</li>
+                <li>Pesca e frutas: milhões em faturamento.</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

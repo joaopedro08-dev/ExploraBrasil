@@ -1,0 +1,89 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Mato Grosso do Sul</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/MS.png" alt="Imagem de Mato Grosso do Sul">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823912.049717792!2d-54.5457105!3d-20.617069249999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x947e91dbe29f7383%3A0x351cd8e9695410ac!2sMato%20Grosso%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1744669558365!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <ion-card>
+        <ion-card-header>
+          <ion-card-title>1. Região Centro (Campo Grande e Entorno)</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p><strong>Capital:</strong> Campo Grande</p>
+          <p><strong>Economia:</strong> Comércio, serviços, pecuária e soja.</p>
+          <p><strong>Infraestrutura:</strong> Aeroporto Internacional de Campo Grande.</p>
+          <p><strong>Cultura e Turismo:</strong> Festivais, gastronomia, acesso ao Pantanal.</p>
+          <p><strong>Produção:</strong> Soja, milho (2ª safra), cana-de-açúcar.</p>
+          <p><strong>Clientes:</strong> Indústrias, usinas e exportadores.</p>
+        </ion-card-content>
+      </ion-card>
+    
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>2. Região Norte (Chapadão do Sul, Coxim e Rio Verde)</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p><strong>Economia:</strong> Soja, milho, algodão, pecuária.</p>
+          <p><strong>Turismo:</strong> Ecoturismo e pesca.</p>
+          <p><strong>Produção:</strong> Relevante em soja e algodão.</p>
+          <p><strong>Clientes:</strong> Indústrias têxteis, frigoríficos, exportadores.</p>
+        </ion-card-content>
+      </ion-card>
+    
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>3. Região Sul (Dourados e Fronteira com o Paraguai)</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p><strong>Economia:</strong> Grãos (soja, milho), pecuária, comércio internacional.</p>
+          <p><strong>Cultura:</strong> Influência indígena (Guarani).</p>
+          <p><strong>Produção:</strong> Soja, milho, cana-de-açúcar.</p>
+          <p><strong>Clientes:</strong> Indústrias alimentícias, usinas e exportação.</p>
+        </ion-card-content>
+      </ion-card>
+    
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>4. Região Pantanal (Corumbá e Ladário)</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p><strong>Economia:</strong> Pecuária extensiva, pesca e turismo ecológico.</p>
+          <p><strong>Turismo:</strong> Observação de fauna (onça, aves, jacarés).</p>
+          <p><strong>Produção:</strong> Pecuária, pesca.</p>
+          <p><strong>Clientes:</strong> Frigoríficos, operadores turísticos.</p>
+        </ion-card-content>
+      </ion-card>
+    
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Informações Gerais</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p><strong>Capital:</strong> Campo Grande</p>
+          <p><strong>Limites:</strong> MT, GO, MG, SP, Paraguai</p>
+          <p><strong>Área:</strong> 357.125,6 km²</p>
+          <p><strong>População:</strong> Cerca de 2,8 milhões</p>
+          <p><strong>Clima:</strong> Tropical, estações seca e chuvosa</p>
+          <p><strong>Educação:</strong> UFMS, escolas públicas e privadas</p>
+          <p><strong>Transporte:</strong> BR-163, ferrovia, aeroporto internacional</p>
+        </ion-card-content>
+      </ion-card>
+</ion-content>

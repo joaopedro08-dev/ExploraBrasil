@@ -1,0 +1,210 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Amapá</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/AP.png" alt="Imagem de Amapá">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4083974.089749081!2d-52.375966000000005!3d1.6034951499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d653d73cd997b21%3A0x911a614576f6bcd4!2zQW1hcMOh!5e0!3m2!1spt-BR!2sbr!4v1744668856142!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Visão Geral da Economia</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-text>
+                <p>A economia do Amapá é predominantemente baseada no setor de serviços, que representa aproximadamente 85,8% do PIB do estado, seguido pela indústria (9,9%) e pela agropecuária (4,3%).</p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Produção por Região</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-card-subtitle>Região Norte</ion-card-subtitle>
+            <ion-text>
+                <p><strong>Extrativismo:</strong> Produção de açaí, castanha-do-brasil, guaraná, e extração de madeira.</p>
+                <p><strong>Agricultura:</strong> Cultivo de frutas tropicais, mandioca, arroz e feijão.</p>
+                <p><strong>Pesca:</strong> Atividade pesqueira com destaque para pirarucu, tucunaré e piranha.</p>
+                <p><strong>Quantidade de Produção:</strong></p>
+                <p>Produção de 43 mil toneladas de açaí (2021), com meta de aumentar para 43.680 toneladas por safra.</p>
+                <p>Castanha-do-pará: O Amapá é um dos maiores produtores do Brasil.</p>
+                <p>Pecuária: 114.773 cabeças de gado bovino, 30.055 suínos, 214.271 bubalinos, e 47.348 aves.</p>
+                <p>Pesca artesanal com destaque para pirarucu, tucunaré e gurijuba.</p>
+                <p>Mineração: Produção de manganês (Serra do Navio) e ouro (Calçoene).</p>
+                <p>Agricultura: Soja, arroz, feijão, milho, abacaxi, banana e mandioca.</p>
+                <p>Infraestrutura agrícola: Cerca de 8.500 propriedades agropecuárias em 1,5 milhão de hectares.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Região Oeste</ion-card-subtitle>
+            <ion-text>
+                <p><strong>Agropecuária:</strong> Pecuária de corte, arroz, mandioca, açaí.</p>
+                <p><strong>Extrativismo:</strong> Madeira, manganês.</p>
+                <p><strong>Pesca:</strong> Pesca artesanal de rios e camarões.</p>
+                <p><strong>Quantidade de Produção:</strong></p>
+                <p>Açaí: Grande produção com destaque para Calçoene e Oiapoque, com meta de atingir 43.680 toneladas por safra.</p>
+                <p>Pesca: Piraruçu, tucunaré, gurijuba.</p>
+                <p>Mineração: Manganês e ouro.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Região Sul</ion-card-subtitle>
+            <ion-text>
+                <p><strong>Agropecuária:</strong> Pecuária de corte, arroz, feijão, açaí.</p>
+                <p><strong>Pesca:</strong> Pesca artesanal com destaque para tucunaré e camarões.</p>
+                <p><strong>Extrativismo:</strong> Madeira, mineração.</p>
+                <p><strong>Turismo:</strong> Potencial para ecoturismo.</p>
+                <p><strong>Quantidade de Produção:</strong></p>
+                <p>Pecuária: 114.773 cabeças de gado bovino, 30.055 suínos, 214.271 bubalinos, 47.348 aves.</p>
+                <p>Agricultura:</p>
+                <p>Mandioca: Produção em 12.800 hectares.</p>
+                <p>Milho: Plantio em 2.600 hectares.</p>
+                <p>Feijão: Produção de 1.102 toneladas em 1.450 hectares.</p>
+                <p>Arroz: Produção anual de 2.140 toneladas em 2.500 hectares.</p>
+                <p>Soja: Crescimento na produção mecanizada.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Região Leste</ion-card-subtitle>
+            <ion-text>
+                <p><strong>Pesca Artesanal:</strong> A pesca é crucial para as populações ribeirinhas que dependem dela para subsistência.</p>
+                <p><strong>Extrativismo Vegetal:</strong> Baseado em modelos socioambientais sustentáveis, destacando-se a produção de açaí, palmito, castanha-do-brasil e madeira.</p>
+                <p><strong>Agronegócio e Pecuária:</strong> Atividades de agricultura e criação de búfalos são essenciais em municípios como Cutias do Araguari.</p>
+                <p><strong>Desenvolvimento da Indústria Pesqueira:</strong> Foco em tornar a costa amapaense um polo pesqueiro, com destaque para o município de Calçoene.</p>
+                <p><strong>Quantidade de Produção:</strong></p>
+                <p>Castanha-do-pará: Grande parte da produção nacional vem dessa região.</p>
+                <p>Açaí: Produção significativa, com foco nas comunidades indígenas e nos sistemas tradicionais de cultivo.</p>
+                <p>Murumuru: Extração do óleo de murumuru para a indústria cosmética.</p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Geração de Riqueza por Produto</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-card-subtitle>Região Norte</ion-card-subtitle>
+            <ion-text>
+                <p>Açaí: A produção de 43 mil toneladas em 2021 pode gerar em torno de R$ 1,5 bilhões.</p>
+                <p>Pesca: Gera cerca de R$ 300 milhões ao ano.</p>
+                <p>Castanha-do-pará: Pode gerar em torno de R$ 500 milhões ao ano.</p>
+                <p>Mineração: Pode gerar até R$ 2 bilhões ao ano.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Região Oeste</ion-card-subtitle>
+            <ion-text>
+                <p>Açaí: Cerca de R$ 100 milhões anuais.</p>
+                <p>Pesca: Pode gerar R$ 50 milhões por ano.</p>
+                <p>Mineração: Pode gerar até R$ 1,5 bilhões em exportações anuais.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Região Sul</ion-card-subtitle>
+            <ion-text>
+                <p>Pecuária: Pode gerar em torno de R$ 4 bilhões anuais.</p>
+                <p>Agricultura: Pode gerar cerca de R$ 3 bilhões ao ano.</p>
+                <p>Castanha-do-pará: Pode gerar cerca de R$ 300 milhões por ano.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Região Leste</ion-card-subtitle>
+            <ion-text>
+                <p>Castanha-do-pará: Pode gerar cerca de R$ 200 milhões anualmente.</p>
+                <p>Açaí: Pode gerar aproximadamente R$ 100 milhões anuais.</p>
+                <p>Murumuru: Pode gerar em torno de R$ 50 milhões ao ano.</p>
+            </ion-text>
+
+            <ion-text>
+                <p><strong>Total Estimado de Receita Anual por Região (aproximado):</strong></p>
+                <p>Região Norte: ~R$ 4,3 bilhões</p>
+                <p>Região Oeste: ~R$ 2,65 bilhões</p>
+                <p>Região Sul: ~R$ 7,3 bilhões</p>
+                <p>Região Leste: ~R$ 350 milhões</p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Maiores Clientes de Produtos do Amapá</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-card-subtitle>Região Norte</ion-card-subtitle>
+            <ion-text>
+                <p>Açaí: São Paulo, Rio de Janeiro, EUA, Europa.</p>
+                <p>Pesca: Norte e Nordeste do Brasil, Portugal, EUA.</p>
+                <p>Castanha-do-pará: Indústrias alimentícias, EUA, Europa.</p>
+                <p>Mineração: Brasil, China, Suíça.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Região Oeste</ion-card-subtitle>
+            <ion-text>
+                <p>Açaí: São Paulo, Rio de Janeiro, EUA, Europa.</p>
+                <p>Pesca: Brasil, EUA, Portugal.</p>
+                <p>Mineração: Brasil, China, Suíça.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Região Sul</ion-card-subtitle>
+            <ion-text>
+                <p>Pecuária: Brasil, China, União Europeia.</p>
+                <p>Agricultura: Brasil, China, Japão, Coreia do Sul.</p>
+                <p>Castanha-do-pará: Indústrias alimentícias, EUA, Europa.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Região Leste</ion-card-subtitle>
+            <ion-text>
+                <p>Açaí: Brasil, EUA, Europa.</p>
+                <p>Castanha-do-pará: Indústrias alimentícias, EUA, Europa.</p>
+                <p>Murumuru: Indústrias cosméticas (Brasil, EUA, Europa).</p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Desafios e Oportunidades para o Amapá</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-card-subtitle>Desafios</ion-card-subtitle>
+            <ion-text>
+                <p>Infraestrutura: Limita o acesso a mercados e aumenta os custos.</p>
+                <p>Sustentabilidade: Equilibrar desenvolvimento econômico com preservação ambiental.</p>
+                <p>Acesso a Mercado: Dificuldade de acesso ao mercado formal para pequenos produtores.</p>
+            </ion-text>
+
+            <ion-card-subtitle>Oportunidades</ion-card-subtitle>
+            <ion-text>
+                <p>Ecoturismo: Potencial promissor aproveitando biodiversidade e cultura rica.</p>
+                <p>Sustentabilidade: O Amapá pode ser exemplo de desenvolvimento sustentável.</p>
+                <p>Desenvolvimento da Indústria Pesqueira: Políticas públicas podem agregar valor ao produto.</p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Considerações Finais</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-text>
+                <p>O Amapá é um estado com grande potencial de crescimento, especialmente em áreas como a produção de açaí, pesca e mineração. Contudo, enfrenta desafios relacionados à infraestrutura e à sustentabilidade. Com o suporte adequado a políticas
+                    públicas e investimentos em sustentabilidade, o Amapá pode consolidar sua posição como um dos principais estados da Amazônia em termos de desenvolvimento econômico sustentável.</p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

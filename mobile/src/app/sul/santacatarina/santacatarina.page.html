@@ -1,0 +1,116 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Santa Catarina</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/SC.png" alt="Imagem do Santa Catarina">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651468.2196882972!2d-51.70416298481997!3d-26.65210236641757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d94d25c052fff9%3A0x2b277580ed7fab2b!2sSanta%20Catarina!5e0!3m2!1spt-BR!2sbr!4v1744660647961!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Norte de Santa Catarina</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>Principais Produtos e Produção</h3>
+            <ul>
+                <li>Indústria metalmecânica (Joinville).</li>
+                <li>Turismo (litoral, Beto Carrero World).</li>
+                <li>Tecnologia (softwares, startups).</li>
+                <li>Pesca e maricultura.</li>
+            </ul>
+
+            <h3>Quantidade de Produtos Produzidos</h3>
+            <ul>
+                <li><strong>Metalmecânica:</strong> Polo industrial diversificado, com grande volume de produção de peças e equipamentos.</li>
+                <li><strong>Turismo:</strong> Milhões de visitantes anuais, com destaque para eventos e parques temáticos.</li>
+                <li><strong>Tecnologia:</strong> Crescente número de empresas e faturamento do setor em expansão.</li>
+                <li><strong>Pesca e Maricultura:</strong> Toneladas de pescados e frutos do mar produzidos anualmente.</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Sul de Santa Catarina</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>Principais Produtos e Produção</h3>
+            <ul>
+                <li>Indústria carbonífera (Criciúma).</li>
+                <li>Cerâmica (revestimentos, louças sanitárias).</li>
+                <li>Agronegócio (arroz, fumo, pecuária).</li>
+                <li>Turismo (serras, águas termais).</li>
+            </ul>
+
+            <h3>Quantidade de Produtos Produzidos</h3>
+            <ul>
+                <li><strong>Carvão Mineral:</strong> Milhões de toneladas extraídas anualmente.</li>
+                <li><strong>Cerâmica:</strong> Grande produção de revestimentos e louças, com exportação significativa.</li>
+                <li><strong>Arroz:</strong> Importante produção estadual.</li>
+                <li><strong>Fumo:</strong> Região com produção relevante.</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Leste de Santa Catarina</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>Principais Produtos e Produção</h3>
+            <ul>
+                <li>Indústria têxtil (Blumenau, Brusque).</li>
+                <li>Metalurgia.</li>
+                <li>Tecnologia da informação.</li>
+                <li>Turismo (Oktoberfest, eventos).</li>
+            </ul>
+
+            <h3>Quantidade de Produtos Produzidos</h3>
+            <ul>
+                <li><strong>Têxtil:</strong> Grande volume de produção de tecidos, malhas e confecções.</li>
+                <li><strong>Metalurgia:</strong> Produção diversificada de peças e estruturas metálicas.</li>
+                <li><strong>Tecnologia da Informação:</strong> Número crescente de empresas e desenvolvimento de softwares.</li>
+                <li><strong>Turismo:</strong> Milhões de visitantes anuais, com destaque para eventos culturais.</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Oeste de Santa Catarina</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>Principais Produtos e Produção</h3>
+            <ul>
+                <li>Agronegócio (milho, soja, trigo, suinocultura, avicultura, produção de leite).</li>
+                <li>Indústria de alimentos.</li>
+                <li>Móveis.</li>
+            </ul>
+
+            <h3>Quantidade de Produtos Produzidos</h3>
+            <ul>
+                <li><strong>Milho:</strong> Milhões de toneladas produzidas anualmente.</li>
+                <li><strong>Soja:</strong> Grande produção para exportação e mercado interno.</li>
+                <li><strong>Suinocultura e Avicultura:</strong> Região com forte produção de carne suína e de aves.</li>
+                <li><strong>Leite:</strong> Produção significativa para a indústria de laticínios.</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

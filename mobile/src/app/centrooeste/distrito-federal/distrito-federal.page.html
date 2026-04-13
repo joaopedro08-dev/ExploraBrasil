@@ -1,0 +1,162 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Distrito Federal</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/DF.png" alt="Imagem de Distrito Federal">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class=" mapa-container ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d491460.0289189447!2d-47.79711685!3d-15.7759057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3af2108804d7%3A0x3eba2390c9145056!2sBras%C3%ADlia%20-%20Distrito%20Federal!5e0!3m2!1spt-BR!2sbr!4v1744669832997!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Produções no Distrito Federal</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p>O Distrito Federal possui uma produção agrícola e pecuária relevante, dentre elas destacam-se: horticultura, agropecuária, entre outros. Os principais produtos são:</p>
+            <ion-list>
+                <ion-item>Grãos: feijão, milho e soja.</ion-item>
+                <ion-item>Pecuária: principalmente de leite e carne.</ion-item>
+                <ion-item>Hortifrutigranjeiros: frutas, verduras e legumes, com destaque para alface e tomate.</ion-item>
+            </ion-list>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Divisões por Região</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+
+            <ion-text>
+                <h4>Região Norte:</h4>
+            </ion-text>
+            <ion-list>
+                <ion-item>
+                    <ion-label><b>Agricultura:</b> A região norte do DF é conhecida pelo cultivo de <b>soja, milho e feijão</b> e frutas como abacaxi, mamão e maracujá.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Pecuária:</b> Produção de leite e carne, abastecendo Brasília.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Pesca:</b> Atividade em áreas próximas a represas.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Regiões Administrativas:</b> Planaltina, Sobradinho, Sobradinho II, Fercal, Varjão.</ion-label>
+                </ion-item>
+            </ion-list>
+            <ion-text><b>Principais Produções:</b></ion-text>
+            <ion-list>
+                <ion-item>
+                    <ion-label><b>Planaltina:</b> Hortaliças em estufa, soja, milho, feijão, leite.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Sobradinho e Sobradinho II:</b> Hortaliças e frutas.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Fercal:</b> Hortaliças e criação de animais.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Varjão:</b> Principalmente residencial, com pouca produção.</ion-label>
+                </ion-item>
+            </ion-list>
+
+            <ion-text>
+                <h4>Região Sul:</h4>
+            </ion-text>
+            <ion-list>
+                <ion-item>
+                    <ion-label><b>Regiões Administrativas:</b> Gama, Santa Maria, Recanto das Emas, Riacho Fundo I e II, Park Way, Candangolândia, Núcleo Bandeirante.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Gama:</b> Maior produtor de alface do DF, além de avicultura, piscicultura, fruticultura, grãos e leite.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Santa Maria e Recanto das Emas:</b> Destaque para hortaliças, pecuária e grãos.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Riacho Fundo I e II:</b> Predominantemente urbanas.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Park Way, Candangolândia e Núcleo Bandeirante:</b> Áreas mais residenciais, com alguma produção agrícola.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Pecuária de corte:</b> Principal atividade do Sul do DF.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Hortifrúti:</b> Alface, couve, tomate, melancia e flores.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Produção leiteira:</b> Algumas propriedades fornecem leite e derivados.</ion-label>
+                </ion-item>
+            </ion-list>
+
+            <ion-text>
+                <h4>Região Leste:</h4>
+            </ion-text>
+            <p>Forte presença agropecuária: grãos, frutas, hortaliças e gado.</p>
+            <ion-list>
+                <ion-item>
+                    <ion-label><b>Agricultura:</b> Soja e milho são os principais grãos.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Pecuária:</b> Gado de corte e produção leiteira.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Fruticultura:</b> Banana, maracujá, cabeludinha.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Hortifrúti:</b> Alface, couve, tomate, cenoura, cebola.</ion-label>
+                </ion-item>
+            </ion-list>
+
+            <ion-text>
+                <h4>Região Oeste:</h4>
+            </ion-text>
+            <p>Pecuária e agricultura diversificada.</p>
+            <ion-list>
+                <ion-item>
+                    <ion-label><b>Agricultura:</b> Grãos como milho e soja.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Pecuária:</b> Produção de leite e carne bovina.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Fruticultura:</b> Banana e maracujá.</ion-label>
+                </ion-item>
+                <ion-item>
+                    <ion-label><b>Hortifrúti:</b> Tomate, alface, couve, cenoura, batata-doce.</ion-label>
+                </ion-item>
+            </ion-list>
+            <p><b>Obs:</b> Brazlândia é líder na produção de morango e goiaba.</p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Maiores clientes do Distrito Federal</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p>O Governo Federal é um dos maiores consumidores de bens e serviços no DF.</p>
+            <p>Empresas como <b>Totvs</b> e <b>Serpro</b> atuam fortemente em tecnologia.</p>
+            <p><b>Construção civil</b> é destaque com MRV, Cyrela e Gafisa.</p>
+        </ion-card-content>
+        <ion-card-content>
+            <img src="../../../assets/img-estados/img-distritofederal00.jpg" alt="producoes" />
+        </ion-card-content>
+    </ion-card>
+</ion-content>

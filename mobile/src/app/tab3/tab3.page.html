@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-img src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" #content>
+    <div class="chat-container">
+        <div class="mensagem" *ngFor="let mensagem of mensagens" [ngClass]="{
+          recebida: mensagem.tipo === 'recebida',
+          enviada: mensagem.tipo === 'enviada'
+        }">
+            <div class="mensagem-conteudo">
+                <img *ngIf="mensagem.imagem" [src]="mensagem.imagem" class="imagem-enviada" />
+                <p *ngIf="mensagem.texto" class="texto-mensagem">{{ mensagem.texto }}</p>
+            </div>
+        </div>
+
+        <div class="mensagem recebida digitando" *ngIf="usuarioDigitando">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</ion-content>
+
+<ion-footer>
+    <div class="input-container">
+        <ion-input placeholder="Digite sua mensagem..." class="mensagem-input" [(ngModel)]="mensagemDigitada" (keyup.enter)="enviarMensagem()" #mensagemInput>
+        </ion-input>
+
+        <input type="file" accept="image/*" (change)="enviarArquivo($event)" hidden #fileInput />
+
+        <div class="container-buttons">
+            <ion-button (click)="fileInput.click()" class="enviar-button">
+                <span class="material-symbols-rounded">attach_file</span>
+            </ion-button>
+
+            <ion-button (click)="enviarMensagem()" class="enviar-button">
+                <span class="material-symbols-rounded">send</span>
+            </ion-button>
+        </div>
+    </div>
+</ion-footer>

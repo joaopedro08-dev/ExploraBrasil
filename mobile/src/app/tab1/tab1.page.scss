@@ -1,0 +1,113 @@
+* {
+    font-family: 'Montserrat';
+}
+
+ion-toolbar {
+    --background: #ffffff;
+    color: var(--ion-color-dark);
+}
+
+ion-img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titulo-app {
+    text-align: center;
+    margin: 30px 20px;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card-regiao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+.img-info {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 20%;
+}
+
+.img-regiao {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    filter: brightness(1) invert(0);
+}
+
+@media screen and (max-width: 884px) {
+    .titulo-app {
+        margin: 40px;
+    }
+    .card-regiao {
+        bottom: 8%;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .card-regiao {
+        bottom: 8%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card-regiao {
+        bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-regiao {
+        bottom: 9%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ion-img {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .card-regiao {
+        bottom: 7%;
+    }
+    .titulo-app {
+        font-size: 20px;
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    ion-img {
+        width: 100px;
+        height: 100px;
+    }
+    .titulo-app {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    ion-img {
+        width: 80px;
+        height: 80px;
+    }
+    .card-regiao {
+        display: none;
+    }
+}

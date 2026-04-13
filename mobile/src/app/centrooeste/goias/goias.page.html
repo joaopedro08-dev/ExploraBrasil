@@ -1,0 +1,222 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Goías</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/GO.png" alt="Imagem de Goías">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928352.270948326!2d-49.577858799999994!3d-15.94666855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935db96386b920f5%3A0x8c6d8f8cd8cf0d3!2zR29pw6Fz!5e0!3m2!1spt-BR!2sbr!4v1744669872182!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Pilar Econômico de Goiás</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            Localizado no coração do Brasil, Goiás se destaca por seu vasto território e condições favoráveis à agropecuária. A diversidade de climas e solos impulsiona a produção de uma ampla variedade de produtos.
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Agricultura</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>
+                    <h2>Soja</h2>
+                    <p>Um dos maiores produtores do Brasil. Valor da produção: R$ 43 bilhões.</p>
+                </ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>
+                    <h2>Milho</h2>
+                    <p>Importante fornecedor para o mercado interno e externo. Valor da produção: R$ 14 bilhões.</p>
+                </ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>
+                    <h2>Cana-de-açúcar</h2>
+                    <p>Impulsiona a indústria sucroalcooleira. Valor da produção: R$ 12 bilhões.</p>
+                </ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>
+                    <h2>Sorgo</h2>
+                    <p>Maior produtor do Brasil, destaque para Rio Verde.</p>
+                </ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>
+                    <h2>Tomate</h2>
+                    <p>Um dos maiores produtores do país, destaque para Cristalina. Valor da produção: R$ 937 milhões.</p>
+                </ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>
+                    <h2>Alho</h2>
+                    <p>Produção relevante no estado. Valor da produção: R$ 712 milhões.</p>
+                </ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>
+                    <h2>Outros</h2>
+                    <p>Algodão, arroz, feijão, trigo, entre outros.</p>
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+        <ion-card-content>
+            <img src="../../../assets/img-estados/img-goias00.jpg" alt="Plantação">
+        </ion-card-content>
+    </ion-card>
+
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Pecuária</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>
+                    <h2>Criação de bovinos</h2>
+                    <p>Um dos maiores rebanhos do país, carne de alta qualidade.</p>
+                </ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>
+                    <h2>Criação de aves</h2>
+                    <p>Forte produção de carne de aves.</p>
+                </ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>
+                    <h2>Outros</h2>
+                    <p>Criação de suínos e produção de leite.</p>
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+        <ion-card-content>
+            <img src="../../../assets/img-estados/img-goias01.jpg" alt="Pecuaria">
+        </ion-card-content>
+    </ion-card>
+
+
+    <ion-card>
+        <ion-card-content>
+            A produção agropecuária de Goiás é diversificada e está em constante crescimento, impulsionando a economia estadual e contribuindo para o abastecimento nacional e internacional.
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Oeste</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>
+                    <h2>Região Oeste</h2>
+                    <p>Composta por cidades como Rio Verde, Jataí, Mineiros e São Simão, é um polo agrícola importante, destacando-se na produção de soja, milho e pecuária de corte. Rio Verde, Jataí e Mineiros são grandes produtores de soja, com a produção
+                        crescente devido à alta demanda internacional. O milho, especialmente a safra safrinha, é o segundo grão mais cultivado na região. Jataí também se destaca na pecuária, sendo um dos maiores centros de abate de gado do estado, com
+                        foco na produção de carne bovina e leite, incluindo a exportação.
+                    </p>
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Central</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>
+                    <h2>Região Central</h2>
+                    <p>A Região Central de Goiás, incluindo Goiânia, Senador Canedo e Aparecida de Goiânia, tem uma economia agrícola diversificada, com foco em hortifrúti para abastecer mercados urbanos, e cultivo de milho e soja em menor escala, mas com
+                        alta tecnologia. Aparecida de Goiânia se destaca na produção de leite e na pecuária de corte, com práticas intensivas e tecnológicas de manejo e nutrição. A região também adota sistemas integrados, como a integração lavoura-pecuária
+                        e lavoura-pecuária-floresta (ILPF), para melhorar a produtividade e a sustentabilidade agrícola.
+                    </p>
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Sudeste</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>
+                    <h2>Região Sudeste</h2>
+                    <p>A Região Sudeste de Goiás é marcada pela diversidade de suas atividades econômicas, com destaque para a agricultura, mineração e pecuária. As principais culturas agrícolas são a soja e o milho, especialmente em grandes propriedades
+                        rurais. Catalão, por exemplo, combina agricultura com mineração, sendo uma importante produtora de soja e milho, além de abrigar depósitos de nióbio. A pecuária de corte também se destaca, com boas pastagens e manejo eficiente
+                        de gado.
+                    </p>
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Norte</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>
+                    <h2>Região Norte</h2>
+                    <p>A Região Norte de Goiás, composta por cidades como Uruaçu, Niquelândia, Formosa e Cidade de Goiás, tem foco na produção de grãos, especialmente soja e milho, com a soja sendo cultivada em larga escala. A fruticultura também é importante,
+                        com cultivo de frutas como goiaba, abacaxi e manga, principalmente nas cidades próximas ao Distrito Federal. Embora a pecuária de corte não seja tão significativa quanto em outras regiões, tem se expandido, especialmente no entorno
+                        de Formosa.
+                    </p>
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Sudoeste</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>
+                    <h2>Região Sudoeste</h2>
+                    <p>É caracterizada pela agricultura irrigada e pela pecuária de leite. Destaca-se no cultivo de frutas irrigadas, como uva e melão, além de ser uma importante produtora de leite, atendendo tanto ao consumo interno quanto à indústria de
+                        laticínios. Também há cultivo de grãos, como milho e soja, com algumas propriedades adotando sistemas integrados de produção.
+                    </p>
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região do Entorno</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>
+                    <h2>Região do Entorno</h2>
+                    <p>É marcada pela agricultura diversificada e de pequena propriedade, com foco na produção de hortifrúti que abastece o Distrito Federal. Também se destacam cultivos de grãos como milho e feijão. A pecuária de leite e corte existe na
+                        região, mas com um crescimento moderado, sendo a agricultura a atividade predominante.
+                    </p>
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

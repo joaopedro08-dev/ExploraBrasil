@@ -1,0 +1,114 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Paraná</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/PR.png" alt="Imagem de Paraná">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722425.354197317!2d-50.71212063585488!3d-24.340186567242448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94db0b9430b8629d%3A0xe893fd5063cef061!2zUGFyYW7DoQ!5e0!3m2!1spt-BR!2sbr!4v1744660494770!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Norte do Paraná</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h6><strong>O que mais produz:</strong></h6>
+            <p>
+                Na região norte do Paraná, destacam-se a produção de café, morangos, quiabos e avicultura. Além disso, o
+                Norte tem uma grande produção de cana-de-açúcar, que alimenta a indústria sucroalcooleira, muito
+                presente na região.
+                A cidade de Londrina e Maringá têm os maiores pólos urbanos do Norte, sendo importantes centros
+                comerciais e industriais, especialmente nos ramos de alimentos, vestuário e móveis.
+            </p>
+
+            <h6><strong>Quantidade de produtos produzidos:</strong></h6>
+            <p><strong>Cana-de-açúcar:</strong> 1,5 a 2 milhões de toneladas por ano.</p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Sul do Paraná</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h6><strong>O que mais produz:</strong></h6>
+            <p>
+                Voltado para a indústria, especialmente a metalúrgica, de móveis e de papel e celulose. Cidades como
+                Ponta Grossa e União da Vitória são polos industriais.
+                A produção agropecuária também é destaque, com carne bovina, leite e derivados, além da agricultura
+                familiar.
+                O turismo tem papel importante na economia, com destaque para áreas de ecoturismo, como o Parque
+                Nacional de Superagüi e as Cataratas do Iguaçu.
+                O Porto de Paranaguá é essencial para as exportações do estado.
+            </p>
+
+            <h6><strong>Quantidade de produtos produzidos:</strong></h6>
+            <p>
+                <strong>Carne Bovina:</strong> 1,5 a 2 milhões de toneladas por ano; <br>
+                <strong>Leite e Derivados:</strong> 4 a 5 bilhões de litros por ano.
+            </p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Leste do Paraná</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h6><strong>O que mais produz:</strong></h6>
+            <p>
+                Abrange Curitiba e seu entorno, principal centro econômico do estado. Destaque para a indústria de
+                automóveis, metalurgia, plásticos e têxteis, com empresas como Renault e Volkswagen.
+                Polo de tecnologia, pesquisa e inovação, com várias instituições de ensino superior.
+            </p>
+
+            <h6><strong>Quantidade de produtos produzidos:</strong></h6>
+            <p>
+                <strong>Indústria Automobilística:</strong> cerca de 900.000 unidades fabricadas em 2023;<br>
+                <strong>Metalurgia:</strong> 3 milhões de toneladas de aço por ano;<br>
+                <strong>Vestuário:</strong> 50 milhões de peças de roupas, representando 10 a 15% da produção nacional.
+            </p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Oeste do Paraná</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h6><strong>O que mais produz:</strong></h6>
+            <p>
+                Destaque para a produção agrícola: soja, milho, trigo, além da criação de suínos e aves.
+                A agricultura irrigada é forte, especialmente na produção de hortaliças.
+                A região é uma das maiores exportadoras de grãos do estado. Cascavel e Toledo são importantes centros
+                urbanos com presença marcante no agronegócio.
+                A proximidade com Paraguai e Argentina favorece o comércio internacional.
+            </p>
+
+            <h6><strong>Quantidade de produtos produzidos:</strong></h6>
+            <p>
+                <strong>Soja:</strong> 3 a 4 milhões de toneladas por ano;<br>
+                <strong>Milho:</strong> 10 milhões de toneladas por ano;<br>
+                <strong>Trigo:</strong> 4 milhões de toneladas por ano.
+            </p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

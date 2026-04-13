@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-img src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-title>{{ sobreProjeto.titulo }}</ion-title>
+  
+    <ion-text class="texto">{{ sobreProjeto.texto1 }}</ion-text>
+    <ion-text>{{ sobreProjeto.texto2 }}</ion-text>
+  
+    <ion-title>{{ creditosTitulo }}</ion-title>
+    <p class="sub">{{ equipePesquisa.titulo }}</p>
+  
+    <div class="description">
+      <h3>Turma A</h3>
+      <ul class="creditos">
+        <li class="description-list" *ngFor="let aluno of equipePesquisa.turmaA">{{ aluno }}</li>
+      </ul>
+    </div>
+  
+    <div class="description">
+      <h3>Turma B</h3>
+      <ul class="creditos">
+        <li class="description-list" *ngFor="let aluno of equipePesquisa.turmaB">{{ aluno }}</li>
+      </ul>
+    </div>
+  
+    <p class="sub">Equipe de Desenvolvedores</p>
+    <div class="description">
+      <ul class="creditos">
+        <li class="description-list" *ngFor="let dev of equipeDesenvolvedores">{{ dev }}</li>
+      </ul>
+    </div>
+  
+    <p class="sub">Professores Auxiliares</p>
+    <div class="description">
+      <ul class="creditos">
+        <li class="description-list" *ngFor="let prof of professores">{{ prof }}</li>
+      </ul>
+    </div>
+  </ion-content>
+  

@@ -1,0 +1,72 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-img src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+    <div class="container">
+        <div class="config-container" #configContainer>
+            <h2 class="config-title">ExploraBrasil Quiz</h2>
+
+            <div class="config-option">
+                <h4 class="option-title">Selecione a categoria</h4>
+                <div class="category-options">
+                    <button class="category-option" data-value="estados">Estados</button>
+                    <button class="category-option active" data-value="regiões">Regiões</button>
+                    <button class="category-option" data-value="cidades">Cidades</button>
+                    <button class="category-option" data-value="biomas">Biomas</button>
+                </div>
+            </div>
+
+            <div class="config-option">
+                <h4 class="option-title">N. de questões</h4>
+                <div class="question-options">
+                    <button class="question-option">5</button>
+                    <button class="question-option active">10</button>
+                    <button class="question-option">15</button>
+                    <button class="question-option">20</button>
+                </div>
+            </div>
+
+            <button class="start-quiz-btn">Iniciar Quiz</button>
+        </div>
+
+        <div class="quiz-container" #quizContainer>
+            <header class="quiz-header">
+                <h2 class="quiz-title">Aplicação do Quiz</h2>
+                <div class="quiz-timer">
+                    <span class="material-symbols-rounded">timer</span>
+                    <p class="time-duration" #timerDisplay>{{currentTime}}s</p>
+                </div>
+            </header>
+
+            <div class="quiz-content">
+                <h1 class="question-text">{{ currentQuestion?.question }}</h1>
+                <ul class="answer-options">
+                    <li *ngFor="let option of currentQuestion?.options; let i = index" class="answer-option" [class.correct]="hasAnswered && i === correctAnswerIndex" [class.incorrect]="hasAnswered && selectedAnswerIndex === i && i !== correctAnswerIndex" (click)="!hasAnswered && selectAnswer(i)">
+                        {{ option }}
+                        <span *ngIf="hasAnswered && i === correctAnswerIndex" class="material-symbols-rounded">check_circle</span>
+                        <span *ngIf="hasAnswered && selectedAnswerIndex === i && i !== correctAnswerIndex" class="material-symbols-rounded">cancel</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="quiz-footer">
+                <p class="question-status">{{questionIndexHistory.length}} de {{numberOfQuestions}} Questões</p>
+                <button class="next-question-btn" #nextQuestionBtn>
+                Próximo
+                <span class="material-symbols-rounded">arrow_right_alt</span>
+            </button>
+            </div>
+        </div>
+
+        <div class="result-container" #resultContainer>
+            <img src="../../assets/quiz/quiz-over.png" class="result-img" />
+            <h2 class="result-title">Quiz completo</h2>
+            <p class="result-message"></p>
+            <button class="try-again-btn">Reiniciar</button>
+        </div>
+    </div>
+</ion-content>

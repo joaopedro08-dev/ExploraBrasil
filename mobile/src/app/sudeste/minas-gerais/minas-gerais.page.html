@@ -1,0 +1,122 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Minas Gerais</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/MG.png" alt="Imagem de Minas Gerais">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7745357.493145318!2d-45.45145529999999!3d-18.577967899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690a165324289%3A0x112170c9379de7b3!2sMinas%20Gerais!5e0!3m2!1spt-BR!2sbr!4v1744660236428!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>1. Região Norte de Minas Gerais</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Características principais:</strong> A Região Norte é conhecida pela sua grande produção agrícola
+                e pecuária. A principal atividade econômica é a produção de grãos, além da pecuária, com destaque para a
+                produção de leite e carne.</p>
+            <p><strong>O que mais se produz:</strong> Grãos (soja, milho, feijão), leite e café.</p>
+            <p><strong>Quantidade de produtos produzidos:</strong> A produção de leite na região é uma das maiores do
+                estado. Em 2022, Minas Gerais produziu cerca de 9 bilhões de litros de leite, com grande parte vinda do
+                Norte. A produção de soja no Norte gira em torno de 2 a 3 milhões de toneladas por ano. A região também
+                contribui significativamente para a produção de café do estado.</p>
+            <p><strong>Riqueza gerada pelo produto:</strong> O leite é um dos maiores geradores de receita para a
+                região, movimentando bilhões no mercado de lácteos. A soja também tem grande impacto econômico,
+                contribuindo com bilhões de reais à economia estadual e nacional.</p>
+            <p><strong>Top 3 maiores clientes:</strong></p>
+            <ul>
+                <li>Indústrias de laticínios (Itambé, Laticínios Porto Alegre)</li>
+                <li>Indústrias de ração e derivados de grãos</li>
+                <li>Exportadores como Cargill e Bunge</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>2. Região Sul de Minas Gerais</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Características principais:</strong> A Região Sul é reconhecida pela agricultura diversificada e
+                pela forte presença do setor cafeeiro. É uma das regiões mais desenvolvidas economicamente, com boa
+                infraestrutura e forte atuação agroindustrial.</p>
+            <p><strong>O que mais se produz:</strong> Café, leite e frutas (maçã, pêssego, goiaba).</p>
+            <p><strong>Quantidade de produtos produzidos:</strong> O Sul contribui com cerca de 50% da produção estadual
+                de café, que gira em torno de 30 milhões de sacas por ano. Também é importante na produção de leite e se
+                destaca na produção de maçãs e pêssegos.</p>
+            <p><strong>Riqueza gerada pelo produto:</strong> O café gera bilhões em exportações, sendo Minas Gerais
+                responsável por mais de 50% da produção nacional. O leite movimenta indústrias locais, gerando empregos
+                e renda.</p>
+            <p><strong>Top 3 maiores clientes:</strong></p>
+            <ul>
+                <li>Cooperativas de café (Cooxupé, Cocarive)</li>
+                <li>Indústrias de leite (Itambé, Laticínios Porto Alegre)</li>
+                <li>Exportadoras de frutas (Frutas do Sul, São João)</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>3. Região Leste de Minas Gerais</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Características principais:</strong> Rica em recursos minerais, especialmente ferro, e com forte
+                presença agrícola. A mineração é economicamente importante, com destaque para Itabira, Mariana e Ouro
+                Preto.</p>
+            <p><strong>O que mais se produz:</strong> Minério de ferro, café e grãos (soja e milho).</p>
+            <p><strong>Quantidade de produtos produzidos:</strong> A região participa significativamente na extração de
+                ferro, com milhões de toneladas por ano. A produção de café é importante em cidades como Caratinga e
+                Manhuaçu. A produção de grãos também é relevante.</p>
+            <p><strong>Riqueza gerada pelo produto:</strong> A mineração de ferro gera bilhões em exportações,
+                principalmente para a China. O café e os grãos também têm papel econômico importante, embora menor que a
+                mineração.</p>
+            <p><strong>Top 3 maiores clientes:</strong></p>
+            <ul>
+                <li>Empresas de mineração (Vale)</li>
+                <li>Cooperativas de café (Cooxupé)</li>
+                <li>Exportadoras de grãos (Bunge)</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>4. Região Oeste de Minas Gerais</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Características principais:</strong> Destaca-se pela produção agrícola diversificada e pela
+                pecuária. Cultiva grãos, frutas e cana-de-açúcar, além da pecuária de corte.</p>
+            <p><strong>O que mais se produz:</strong> Grãos (soja e milho), cana-de-açúcar e carne bovina.</p>
+            <p><strong>Quantidade de produtos produzidos:</strong> A produção de grãos é alta, com destaque para a soja.
+                A cana-de-açúcar abastece usinas de etanol e açúcar. A região também tem forte participação na produção
+                de carne bovina.</p>
+            <p><strong>Riqueza gerada pelo produto:</strong> Soja, milho e cana-de-açúcar são importantes para o mercado
+                interno e externo. A pecuária gera riqueza com exportações de carne para vários países.</p>
+            <p><strong>Top 3 maiores clientes:</strong></p>
+            <ul>
+                <li>Usinas de açúcar e etanol (Usina São João)</li>
+                <li>Indústrias de carne bovina (JBS, Frigol)</li>
+                <li>Exportadoras de grãos (Cargill, Bunge)</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

@@ -1,0 +1,117 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Mato Grosso</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/MT.png" alt="Imagem de Mato Grosso">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7971383.976821666!2d-55.929094649999996!3d-12.695313249999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db1e748370319%3A0xc66268e27d2181fb!2sMato%20Grosso!5e0!3m2!1spt-BR!2sbr!4v1744669711503!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Produções no Mato Grosso</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-text>
+                <p>
+                    A região de <strong>Mato Grosso</strong>, no Brasil, se destaca como um dos maiores polos agropecuários do país, contribuindo significativamente para a economia nacional e global. Dividido em várias regiões (Sul, Norte, Oeste, Leste),
+                    o estado é responsável por uma grande produção de commodities como soja, milho, algodão e carne bovina. Abaixo, você encontrará informações detalhadas sobre os principais produtos, as regiões de produção e os principais compradores
+                    de Mato Grosso.
+                </p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Sul</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-text>
+                <p>A região Sul de Mato Grosso é um dos maiores polos agropecuários do Brasil, com grande destaque na produção de soja, milho e algodão.</p>
+            </ion-text>
+            <ion-text><strong>Principais Produtos e Valores Gerados:</strong></ion-text>
+            <ion-text><strong> Soja:</strong> Produção: 38 milhões de toneladas (2022) - Valor Gerado: R$ 345,4 bilhões</ion-text>
+            <ion-text><strong> Milho:</strong> Produção: 38,3 milhões de toneladas (2022) - Valor Gerado: R$ 137,7 bilhões</ion-text>
+            <ion-text><strong> Algodão:</strong> Produção: Maior produtor do Brasil, com destaque para Sapezal - Valor Gerado: R$ 33,1 bilhões</ion-text>
+            <ion-text><strong> Principais Compradores:</strong></ion-text>
+            <ion-text><strong> China:</strong> 33,8% das exportações estaduais (US$ 7,9 bilhões)</ion-text>
+            <ion-text><strong> Vietnã:</strong> Tortas e resíduos sólidos da extração do óleo de soja</ion-text>
+            <ion-text><strong> Tailândia:</strong> Soja, milho, óleos vegetais e açúcares</ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Norte</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-text>
+                <p>A região Norte de Mato Grosso tem se destacado pela robusta produção agropecuária, especialmente em soja, milho e algodão.</p>
+            </ion-text>
+            <ion-text><strong>Principais Produtos e Valores Gerados:</strong></ion-text>
+            <ion-text><strong> Soja:</strong> Produção: 38 milhões de toneladas (2022/23), 32% da produção nacional - Valor Gerado: R$ 105 bilhões</ion-text>
+            <ion-text><strong> Milho:</strong> Responsável por 35% da produção nacional - Valor Gerado: 31% do valor da produção nacional</ion-text>
+            <ion-text><strong> Algodão:</strong> Produção: 4,4 milhões de toneladas (71% da produção nacional) - Valor Gerado: R$ 23,45 bilhões</ion-text>
+            <ion-text><strong> Principais Compradores:</strong></ion-text>
+            <ion-text><strong> China:</strong> Soja, carne bovina congelada, algodão, milho</ion-text>
+            <ion-text><strong> Vietnã:</strong> Tortas e resíduos de óleo de soja</ion-text>
+            <ion-text><strong> Tailândia:</strong> Soja, milho, óleos vegetais</ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Oeste</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-text>
+                <p>A Região Oeste é notável pela sua produção de soja, milho, algodão e carne bovina, além de ser uma das maiores áreas de pecuária de corte.</p>
+            </ion-text>
+            <ion-text><strong>Principais Produtos e Valores Gerados:</strong></ion-text>
+            <ion-text><strong> Soja:</strong> Produção: 38 milhões de toneladas (32% da produção nacional) - Valor Gerado: R$ 105 bilhões</ion-text>
+            <ion-text><strong> Milho:</strong> Produção: 35% da produção nacional - Valor Gerado: R$ 44,39 bilhões</ion-text>
+            <ion-text><strong> Algodão:</strong> Produção: 71% do algodão nacional - Valor Gerado: R$ 23,45 bilhões</ion-text>
+            <ion-text><strong> Carne Bovina:</strong> Produção: Maior rebanho bovino do Brasil - Valor Gerado: R$ 24,89 bilhões</ion-text>
+            <ion-text><strong> Principais Municípios Produtores:</strong></ion-text>
+            <ion-text><strong> Sapezal:</strong> R$ 8 bilhões, algodão</ion-text>
+            <ion-text><strong> Campo Novo do Parecis:</strong> R$ 8,15 bilhões, soja</ion-text>
+            <ion-text><strong> Sorriso:</strong> R$ 11,5 bilhões, soja e milho</ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Leste</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-text>
+                <p>A Região Leste é um importante polo agropecuário com destaque para soja, milho e carne bovina.</p>
+            </ion-text>
+            <ion-text><strong>Principais Produtos e Valores Gerados:</strong></ion-text>
+            <ion-text><strong> Soja:</strong> Produção: 38 milhões de toneladas - Valor Gerado: R$ 105 bilhões</ion-text>
+            <ion-text><strong> Milho:</strong> Produção: 35% da produção nacional - Valor Gerado: R$ 44,39 bilhões</ion-text>
+            <ion-text><strong> Algodão:</strong> Produção: 71% do algodão nacional - Valor Gerado: R$ 23,45 bilhões</ion-text>
+            <ion-text><strong> Carne Bovina:</strong> Produção: Maior rebanho do Brasil - Valor Gerado: R$ 24,89 bilhões</ion-text>
+            <ion-text><strong> Principais Compradores:</strong></ion-text>
+            <ion-text><strong> Mercado Interno:</strong> São Paulo, Minas Gerais, Paraná</ion-text>
+            <ion-text><strong> Exportações:</strong> Portos como Santos (SP) e Paranaguá (PR)</ion-text>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

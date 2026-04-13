@@ -1,0 +1,93 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Roraima</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/RR.png" alt="Imagem de Roraima">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4083456.597453527!2d-61.85891055!3d1.8447073000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d930671dfccf45b%3A0x695f00f29e9c7a14!2sRoraima!5e0!3m2!1spt-BR!2sbr!4v1744669321734!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Norte de Roraima</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Meios de produção:</strong> Agricultura, Pecuária e Piscicultura.</p>
+            <p><strong>Produtos principais:</strong> Milho, mandioca, banana, cana-de-açúcar e arroz.</p>
+            <p><strong>Destaque:</strong> Amajari é um dos maiores produtores de tambaqui do país.</p>
+            <p><strong>Produção de Tambaqui:</strong> 15 mil toneladas (2020), sendo 11 mil exportadas para o Amazonas.</p>
+            <p><strong>Renda:</strong> Piscicultura movimentou mais de R$ 9 milhões em 2020.</p>
+            <p><strong>Top 3 clientes:</strong> Amazonas, mercado interno de Roraima, outros estados do Norte.</p>
+            <p><strong>Principal cidade:</strong> Amajari.</p>
+        </ion-card-content>
+        <ion-card-content>
+            <img src="../../../assets/img-estados/img-roraima00.jpg" alt="Tambaqui" style="width: 100%; height: 200px; object-fit: cover;" />
+        </ion-card-content>
+    </ion-card><br><br>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Sul de Roraima</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Meios de produção:</strong> Agricultura (soja, milho e arroz) e Pecuária.</p>
+            <p><strong>Produtos principais:</strong> Soja, milho e arroz.</p>
+            <p><strong>Produção de Soja:</strong> 360 mil toneladas em 2023, com previsão de 370,2 mil toneladas em 2024.</p>
+            <p><strong>Renda:</strong> US$ 368,7 milhões em exportações (2023), sendo US$ 190,2 milhões de soja e derivados.</p>
+            <p><strong>Top 3 clientes:</strong> Itália, Cuba, Venezuela.</p>
+            <p><strong>Principal cidade:</strong> Bonfim.</p>
+        </ion-card-content>
+        <ion-card-content>
+            <img src="../../../assets/img-estados/img-roraima01.jpg" alt="Soja" style="width: 100%; height: 200px; object-fit: cover;" />
+        </ion-card-content>
+    </ion-card><br><br>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Leste de Roraima</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Meios de produção:</strong> Agricultura (soja, milho e arroz) e Pecuária.</p>
+            <p><strong>Produtos principais:</strong> Grãos e gado.</p>
+            <p><strong>Área de Soja:</strong> 115.134 hectares em 2024 (76% da área de grãos).</p>
+            <p><strong>Renda:</strong> Impacto significativo na economia, empregos e renda.</p>
+            <p><strong>Top 3 clientes:</strong> Venezuela, Guiana, Brasil (mercado interno).</p>
+            <p><strong>Principal cidade:</strong> Cantá.</p>
+        </ion-card-content>
+        <ion-card-content>
+            <img src="../../../assets/img-estados/img-roraima02.jpg" alt="Cantá - Leste de Roraima" style="width: 100%; height: 200px; object-fit: cover;" />
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Oeste de Roraima</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p><strong>Meios de produção:</strong> Agricultura (soja e milho) e Pecuária.</p>
+            <p><strong>Produtos principais:</strong> Soja, milho e gado.</p>
+            <p><strong>Área de Soja:</strong> 143.280 hectares em 2025 (aumento de 24,4%).</p>
+            <p><strong>Renda:</strong> Expansão da soja impulsiona a economia e exportações.</p>
+            <p><strong>Top 3 clientes:</strong> Venezuela, China, Turquia.</p>
+            <p><strong>Principal cidade:</strong> Alto Alegre.</p>
+        </ion-card-content>
+        <ion-card-content>
+            <img src="../../../assets/img-estados/img-roraima03.jpg" alt="Milho e soja - Oeste" style="width: 100%; height: 200px; object-fit: cover;" />
+        </ion-card-content>
+    </ion-card>
+</ion-content>

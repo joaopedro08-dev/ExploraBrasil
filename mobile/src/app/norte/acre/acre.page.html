@@ -1,0 +1,182 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Acre</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/AC.png" alt="Imagem de Acre">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4033809.0668934053!2d-70.3033094!3d-9.13036985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x917f8daa4e9106b9%3A0x25ec0ac5083607c1!2sAcre!5e0!3m2!1spt-BR!2sbr!4v1744668816867!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Norte do Acre</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h4>Principais Produtos</h4>
+            <ion-text>
+                <p>
+                    Valor de produção: R$ 244 milhões (safra 2023/24)<br> Quantidade produzida: 497 mil toneladas<br> Área cultivada: 21.565 hectares<br> Produtividade: 23.033 kg/ha<br> Rendimento financeiro: R$ 11.293,02/ha<br> Município de maior produção:
+                    Cruzeiro do Sul
+                </p>
+            </ion-text>
+            <ion-text>
+                <p>
+                    Segundo maior produto agrícola da região Norte, com produtividade 42% abaixo da média nacional e rendimento financeiro 12% abaixo.
+                </p>
+            </ion-text>
+
+            <h4>Principais Cidades Produtoras</h4>
+            <ion-text>Cruzeiro do Sul (maior produtor de mandioca)</ion-text>
+            <ion-text>Feijó</ion-text>
+            <ion-text>Tarauacá</ion-text>
+
+            <h4>Principais Compradores</h4>
+            <ion-text>
+                <p>
+                    Geralmente, os maiores compradores de mandioca e milho são indústrias alimentícias e distribuidoras locais para processamento e venda nos mercados regionais e externos. Empresas como Indústrias de Alimentos e Cooperativas Agropecuárias podem ser compradores
+                    típicos.
+                </p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Sul do Acre</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h4>Principais Produtos</h4>
+            <ion-text>
+                <strong>Soja:</strong> Produção destacada nas áreas próximas à Rodovia BR-317, nos vales do Baixo e Alto Acre. Recordes de produtividade refletem o potencial agrícola da região.
+            </ion-text>
+            <ion-text>
+                <strong>Milho:</strong> Produtividade recorde na região Sul, especialmente ao longo da BR-317.
+            </ion-text>
+
+            <h4>Principais Cidades Produtoras</h4>
+            <ion-text>Rio Branco</ion-text>
+            <ion-text>Plácido de Castro</ion-text>
+            <ion-text>Senador Guiomard</ion-text>
+
+            <h4>Principais Compradores</h4>
+            <ion-text>
+                <p>Indústrias de ração animal (soja e milho). Comerciantes locais e grandes distribuidores de grãos (Bunge Brasil, Cargill) para mercados nacionais e externos.</p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Leste do Acre</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h4>Principal Produto</h4>
+            <ion-text>
+                <strong>Pecuária de Corte:</strong> Representa aproximadamente 40% do valor bruto da produção agropecuária do estado.<br> Rebanho bovino do Acre em 2022: 4.635.381 animais (Baixo Acre com 54%).<br> Produção de carne bovina em 2023: 115,5
+                mil toneladas (estimativa de 120 mil para 2024).
+            </ion-text>
+
+            <h4>Principais Cidades Produtoras</h4>
+            <ion-text>Brasiléia</ion-text>
+            <ion-text>Epitaciolândia</ion-text>
+            <ion-text>Assis Brasil</ion-text>
+
+            <h4>Principais Compradores</h4>
+            <ion-text>
+                <p>Empresas do setor de exportação de carne e abatedouros (JBS). Empresas locais de processamento de carne.</p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Oeste do Acre</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h4>Principais Produtos</h4>
+            <ion-text>
+                <strong>Extrativismo de Castanha-do-Brasil:</strong> Produção em 2009: 20 toneladas (20% da produção nacional).
+            </ion-text>
+            <ion-text>
+                <strong>Borracha (Hevea brasiliensis):</strong> Produção em 2008: 845 toneladas (pouco mais de 1/4 do total nacional).
+            </ion-text>
+
+            <h4>Principais Cidades Produtoras</h4>
+            <ion-text>Xapuri</ion-text>
+            <ion-text>Brasiléia</ion-text>
+            <ion-text>Epitaciolândia</ion-text>
+
+            <h4>Principais Compradores</h4>
+            <ion-text>
+                <p>Indústrias de alimentos e cosméticos para castanha-do-brasil (Cacau Show, Diana Alimentos). Indústrias de produtos derivados da borracha (Goodyear, Michelin).</p>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Quanto Produz</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h4>Norte</h4>
+            <ion-text>A produção é mais limitada por causa da floresta. Destaque para pesca, cacau e madeira.</ion-text>
+
+            <h4>Sul</h4>
+            <ion-text>
+                <ul>
+                    <li><strong>Soja:</strong> 4,4 milhões de toneladas (2023/2024), 40% da produção estadual de grãos.</li>
+                    <li><strong>Milho:</strong> 1,3 milhão de toneladas (2018).</li>
+                    <li><strong>Arroz, feijão, algodão:</strong> Também com produção significativa.</li>
+                </ul>
+            </ion-text>
+
+            <h4>Leste</h4>
+            <ion-text>
+                <ul>
+                    <li><strong>Caju:</strong> 100 mil toneladas/ano.</li>
+                    <li><strong>Guaraná:</strong> 5% da produção estadual.</li>
+                </ul>
+            </ion-text>
+
+            <h4>Oeste</h4>
+            <ion-text>
+                <ul>
+                    <li><strong>Algodão:</strong> 200 mil toneladas/ano (15% do total estadual).</li>
+                    <li><strong>Goiaba:</strong> 70 mil toneladas/ano.</li>
+                </ul>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Principais Cidades</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-text>
+                <ul>
+                    <li><strong>Norte:</strong> São Luís, Paço do Lumiar, Raposa, Viana.</li>
+                    <li><strong>Sul:</strong> Balsas, Imperatriz, Davinópolis, Estreito.</li>
+                    <li><strong>Leste:</strong> Caxias, Timon, Coelho Neto, Codó.</li>
+                    <li><strong>Oeste:</strong> Açailândia, Barra do Corda, Grajaú, São João dos Patos.</li>
+                </ul>
+            </ion-text>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

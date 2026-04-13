@@ -1,0 +1,151 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" text="Voltar" style="color: black;"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="logo" src="../../assets/inicio/logo.png"></ion-img>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-title>Paraíba</ion-title>
+
+    <div class="imagem-container">
+        <img src="../../../assets/estados/PB.png" alt="Imagem de Paraíba">
+    </div>
+
+    <div id="offline-alert" class="offline-alert">
+        ⚠️ Você está offline. O mapa pode não funcionar corretamente.
+    </div>
+
+    <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026837.5349753853!2d-36.77934485!3d-7.16443345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a54cb6ee98c8cf%3A0x1f289b24323c01b4!2zUGFyYcOtYmE!5e0!3m2!1spt-BR!2sbr!4v1744670670314!5m2!1spt-BR!2sbr"
+            sandbox="allow-scripts allow-same-origin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Norte de Paraíba</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>📍 Principais Cidades</h3>
+            <ul>
+                <li>Cajazeiras</li>
+                <li>Sousa</li>
+                <li>Pombal</li>
+            </ul>
+
+            <h3>🌾 Produção Agrícola e Pecuária</h3>
+            <ul>
+                <li><strong>Leite de cabra:</strong> ~22 milhões de litros/ano</li>
+                <li><strong>Mel:</strong> mais de 100 toneladas/ano</li>
+                <li><strong>Milho:</strong> ~20 mil toneladas/ano</li>
+                <li><strong>Feijão:</strong> produção complementar</li>
+            </ul>
+
+            <h3>💰 Impacto Econômico</h3>
+            <p>O leite de cabra é o principal gerador de renda, abastecendo indústrias locais e estaduais. A produção de mel também tem destaque como fonte de riqueza regional.</p>
+
+            <h3>🏢 Principais Clientes</h3>
+            <ul>
+                <li>Laticínios Boa Vista</li>
+                <li>Indústrias de produtos derivados do mel (ex: Mel de Caju)</li>
+                <li>Mercados e supermercados locais</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Sul de Paraíba</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>📍 Principais Cidades</h3>
+            <ul>
+                <li>Patos</li>
+                <li>Itaporanga</li>
+                <li>Teixeira</li>
+            </ul>
+
+            <h3>🌾 Produção Agrícola</h3>
+            <ul>
+                <li><strong>Feijão:</strong> ~51,1 mil toneladas (safra 22/23)</li>
+                <li><strong>Milho:</strong> ~153,1 mil toneladas (safra 22/23)</li>
+                <li><strong>Mandioca:</strong> produção significativa</li>
+                <li><strong>Pecuária de corte:</strong> em expansão</li>
+            </ul>
+
+            <h3>💰 Impacto Econômico</h3>
+            <p>O cultivo de feijão e milho movimenta a economia local, especialmente com fornecimento para a indústria alimentícia e mercados regionais.</p>
+
+            <h3>🏢 Principais Clientes</h3>
+            <ul>
+                <li>Cerealista Boa Vista</li>
+                <li>Feiras e supermercados</li>
+                <li>Mercados de exportação regional</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Leste de Paraíba</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>📍 Principais Cidades</h3>
+            <ul>
+                <li>João Pessoa</li>
+                <li>Cabedelo</li>
+                <li>Bayeux</li>
+            </ul>
+
+            <h3>🌴 Produção Agrícola e Pesqueira</h3>
+            <ul>
+                <li><strong>Cana-de-açúcar:</strong> ~5,1 milhões de toneladas/ano</li>
+                <li><strong>Abacaxi:</strong> ~120 mil toneladas/ano</li>
+                <li><strong>Pesca:</strong> camarões e peixes marinhos</li>
+            </ul>
+
+            <h3>💰 Impacto Econômico</h3>
+            <p>A produção de cana é o maior motor econômico da região, seguida pelo abacaxi e pela pesca, que fortalece a indústria alimentícia e exportadora.</p>
+
+            <h3>🏢 Principais Clientes</h3>
+            <ul>
+                <li>Usinas de açúcar e etanol (Usina São João, Usina Coruripe)</li>
+                <li>Indústrias de processamento de frutas (Frutas Pagu, Sabor Tropical)</li>
+                <li>Mercados de exportação (camarões e frutas)</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Região Oeste de Paraíba</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <h3>📍 Principais Cidades</h3>
+            <ul>
+                <li>Catolé do Rocha</li>
+                <li>Pombal</li>
+                <li>São Bento</li>
+            </ul>
+
+            <h3>🐐 Produção Pecuária e Agrícola</h3>
+            <ul>
+                <li><strong>Caprinos e ovinos:</strong> carne e leite em alta escala</li>
+                <li><strong>Algodão:</strong> ~50 mil toneladas/ano</li>
+                <li><strong>Milho:</strong> produção relevante para ração animal</li>
+            </ul>
+
+            <h3>💰 Impacto Econômico</h3>
+            <p>A criação de caprinos e ovinos é altamente representativa para a economia local, junto ao algodão, que abastece a indústria têxtil.</p>
+
+            <h3>🏢 Principais Clientes</h3>
+            <ul>
+                <li>Frigo São Bento (processamento de carne caprina)</li>
+                <li>Laticínios Pombal</li>
+                <li>Indústrias têxteis e mercados regionais</li>
+            </ul>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
